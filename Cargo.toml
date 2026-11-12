@@ -3,6 +3,12 @@ name = "time-travel-simulator"
 version = "0.1.0"
 edition = "2021"
 
-[workspace]
+[lib]
+name = "time_travel_simulator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "time-travel-simulator"
+path = "src/main.rs"
 
 [dependencies]
